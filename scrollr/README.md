@@ -1,11 +1,3 @@
-LucesDelRocioWeb
-================
-
-Página web minimalista. 
-
-================
-####Incluye
-
 ## Responsive parallax scroller
 A responsive scrolling parallax slideshow script.
 
@@ -16,5 +8,3 @@ http://lab.alexcican.com/scrollr/
 https://github.com/alexcican/lab/blob/gh-pages/README.md
 
 ### http://alexcican.com
-
-
