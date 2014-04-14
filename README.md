@@ -4,7 +4,7 @@ LucesDelRocioWeb
 Página web minimalista. 
 
 ================
-###Incluye
+#Incluye
 
 ## Responsive parallax scroller
 A responsive scrolling parallax slideshow script.
