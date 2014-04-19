@@ -178,13 +178,9 @@ ul li, ol li {
 }
 
 #home-slides div:nth-of-type(1) {
-	background: url("../images/large/alex-bg-large.jpg") 50% 0 no-repeat fixed;
+	background: url("../images/fondos/LDR.jpg") 50% 0 no-repeat fixed;
 }
 
-/* changes colour of link because of blue bg */
-#home-slides div:nth-of-type(1) a {
-	color: #e42186;
-}
 
 #home-slides div:nth-of-type(2) {
 	background: url("../images/large/bud-bg-large.jpg") 50% 0 no-repeat fixed;
@@ -197,6 +193,15 @@ ul li, ol li {
 #home-slides div:nth-of-type(3) p {
 	color: #111;
 }
+
+#home-slides div:nth-of-type(4) {
+	background: url("../images/large/par-bg-large.jpg") 50% 0 no-repeat fixed;
+}
+
+#home-slides div:nth-of-type(4) p {
+	color: #111;
+}
+
 
 /*** CONTENT ***/
 /**************/
