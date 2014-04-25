@@ -37,12 +37,12 @@ function cambiarALaSiguienteImg(posicion)
 
 
 
-var tablaPathProximoColor = {};
-tablaPathProximoColor['luzRoja'] = "./images/lamparas/luzAmarilloPatito.png";
-tablaPathProximoColor['luzAmarilloPatito'] = "./images/lamparas/luzVerdePistacho.png";
-tablaPathProximoColor['luzVerdePistacho'] = "./images/lamparas/luzRoja.png";
-
 var tablaPathActualColor = {};
 tablaPathActualColor['luzAmarilloPatito'] = "./images/lamparas/luzAmarilloPatito.png";
 tablaPathActualColor['luzVerdePistacho'] = "./images/lamparas/luzVerdePistacho.png";
 tablaPathActualColor['luzRoja'] = "./images/lamparas/luzRoja.png";
+
+var tablaPathProximoColor = {};
+tablaPathProximoColor['luzRoja'] = tablaPathActualColor['luzAmarilloPatito'];
+tablaPathProximoColor['luzAmarilloPatito'] = tablaPathActualColor['luzVerdePistacho'];
+tablaPathProximoColor['luzVerdePistacho'] = tablaPathActualColor['luzRoja'];
